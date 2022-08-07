@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const Connection = async (username,password)=> {
 
-    const URL = `mongodb+srv://${username}:${password}@chatapp.qlgwp.mongodb.net/WHATSAPPCLONE?retryWrites=true&w=majority`
+    const URL = `mongodb+srv://abhay:${password}@chatapp.qlgwp.mongodb.net/?retryWrites=true&w=majority`
      
     // We will Use try and catch method as Mongo db is external community on cloud
     // So have to check whether any error occured while connecting or not
